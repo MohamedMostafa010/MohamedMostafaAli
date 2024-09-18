@@ -181,41 +181,41 @@ li {
 /* Certifications Grid */
 .certification-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+    margin-top: 20px;
 }
 
-.certification-grid img {
+.certification-grid img, 
+.internship-certificates img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.certification-grid img:hover {
+.certification-grid img:hover, 
+.internship-certificates img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #00ffcb;
+    box-shadow: 0 0 20px #00ffcb;
 }
 
 /* Footer */
 footer {
-    background-color: #0f0f0f;
-    color: #a3f7bf;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    background-color: #1f1f1f;
+    color: #a3f7bf;
+    font-size: 0.9em;
 }
 
 footer a {
     color: #00ffcb;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #a3f7bf;
+    text-decoration: underline;
 }
 
 /* Courses, Certifications and Diplomas */

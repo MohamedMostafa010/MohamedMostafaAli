@@ -230,6 +230,12 @@ footer a:hover {
     text-align: left;
 }
 
+.description {
+    font-size: 0.88rem; /* Default size */
+    color: #00ffcb;
+}
+
+
 .certifications-diplomas ul {
     list-style-type: disc; /* Use disc bullet points */
     padding-left: 20px; /* Add padding to align bullets */
@@ -312,6 +318,12 @@ footer a:hover {
     .right-section {
         width: 100%;
         padding: 20px;
+    }
+
+.description {
+        font-size: 1rem; /* Adjust font size for mobile */
+        line-height: 1.5; /* Increase line height for better readability */
+        display: block; /* Ensure it takes full width */
     }
 
     h1 {

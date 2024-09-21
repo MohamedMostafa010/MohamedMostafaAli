@@ -321,7 +321,8 @@ footer a:hover {
     }
 
 .description {
-        font-size: 1rem; /* Adjust font size for mobile */
+        font-size: 0.88rem; /* Adjust font size for mobile */
+	color: #00ffcb;
         line-height: 1.5; /* Increase line height for better readability */
         display: block; /* Ensure it takes full width */
     }

@@ -266,3 +266,19 @@ p {
     margin: 5px 0; /* Spacing between paragraphs */
 }
 
+.linkedin-profile {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some spacing above */
+}
+
+.linkedin-profile .profile-title {
+    margin-bottom: 10px; /* Space between title and logo */
+}
+
+.linkedin-profile .badge-wrapper {
+    display: inline-block; /* Allow the badge wrapper to be an inline block */
+    margin-left: -18px; /* Adjust this value to move the logo further left */
+}
+
+
+

@@ -268,11 +268,11 @@ p {
 
 .linkedin-profile {
     text-align: center; /* Center the text */
-    margin-top: 20px; /* Add some spacing above */
+    margin-top: 10px; /* Add some spacing above */
 }
 
 .linkedin-profile .profile-title {
-    margin-bottom: 10px; /* Space between title and logo */
+    margin-bottom: 1px; /* Space between title and logo */
 }
 
 .linkedin-profile .badge-wrapper {

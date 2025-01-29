@@ -1,21 +1,11 @@
 To update your GitHub Pages website while in the directory of your website, follow these steps:
 
-1. **Make your changes** to the files in your website directory (such as editing HTML, CSS, or JavaScript files).
+1. Make your changes to the files in your website directory (such as editing HTML, CSS, or JavaScript files).
 
-2. **Add the changes**:
-   ```bash
-   git add .
-   ```
+2. Add the changes: git add .
 
-3. **Commit the changes** with a message describing what you updated:
-   ```bash
-   git commit -m "Describe your changes here"
-   ```
+3. Commit the changes with a message describing what you updated: git commit -m "Describe your changes here"
 
-4. **Push the changes** to GitHub:
-   ```bash
-   git push origin main
-   ```
-   (If you're using a different branch, replace `main` with your branch name.)
+4. Push the changes to GitHub: git push origin main , (If you're using a different branch, replace `main` with your branch name.)
 
 Once the changes are pushed, GitHub Pages will automatically rebuild your website based on the latest files. It may take a minute or two for the changes to reflect online.
